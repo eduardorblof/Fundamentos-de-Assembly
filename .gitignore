@@ -1,0 +1,50 @@
+# ===== Arquivos objeto =====
+*.o
+*.obj
+
+# ===== Executáveis =====
+*.out
+*.exe
+*.bin
+*.elf
+
+# ===== Listagens / dumps =====
+*.lst
+*.list
+*.map
+*.dump
+
+# ===== Arquivos intermediários =====
+*.hex
+*.srec
+
+# ===== Debug =====
+*.dbg
+*.pdb
+
+# ===== Core dumps =====
+core
+*.core
+
+# ===== Logs =====
+*.log
+
+# ===== Diretórios de build =====
+build/
+dist/
+out/
+
+# ===== Arquivos temporários =====
+*.tmp
+*.temp
+*.swp
+*~
+
+# ===== Configurações de IDEs =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== Sistemas específicos =====
+.DS_Store
+Thumbs.db
