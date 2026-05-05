@@ -93,17 +93,6 @@ rec_case:
 	lw ra, 4(sp)
 	addi sp, sp, 12
 	jalr zero, ra, 0
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
 
 
 
