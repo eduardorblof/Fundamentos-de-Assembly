@@ -20,3 +20,27 @@ default:
 	j exit
 exit:
 	nop
+
+/*
+
+int main(){
+	int s0 = 5;
+	int t0 = 10;
+	inz t1 = 25;
+	int t2 = 0;
+
+	int s1;
+
+	switch(s0){
+	case(t0):
+		s1 = t0;
+	case(t1):
+		s1 = t1;
+	default:
+		s1 = t2;
+	}
+	return 0;
+}
+
+
+*/
