@@ -32,10 +32,11 @@ base_1:
     addi sp, sp, 12
     jalr zero, ra, 0
 caso_recursivo:
+    lw a1, 4(sp)
     addi a1, a1, -1
     jal ra, potencia
     lw t0, 8(sp)
     mul a0, a0, t0
     lw ra, 0(sp)
     addi sp, sp, 12
-    jal zero, ra, 0
+    jalr zero, ra, 0
