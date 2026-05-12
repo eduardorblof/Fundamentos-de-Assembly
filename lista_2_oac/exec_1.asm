@@ -44,9 +44,7 @@ loop:
 
     	addi s1, s1, 1
     	jal  zero, loop        
-	addi a7, zero, 10
-	ecall
-	
+		
 exit:
     	addi a7, zero, 10
     	ecall
